@@ -1,4 +1,4 @@
-package com.motouch.android.timepickerdemo.ui;
+package com.motouch.android.demo.ui;
 
 import android.os.Bundle;
 import android.os.Handler;
