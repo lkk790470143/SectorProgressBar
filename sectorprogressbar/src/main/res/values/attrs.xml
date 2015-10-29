@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SectorProgressBar">
+        <attr name="borderColor" format="color|reference" />
+        <attr name="sectorColor" format="color|reference" />
+        <attr name="sectorBackgroundColor" format="color|reference" />
+        <attr name="borderWidth" format="dimension|reference" />
+        <attr name="showTextProgress" format="boolean|reference" />
+        <attr name="progress" format="integer|reference" />
+    </declare-styleable>
+</resources>
