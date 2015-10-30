@@ -57,7 +57,7 @@ To set some basic settings use the following java-code:
 License
 -------
 
-    Copyright 2012-2014 Jeremy Feinstein
+    Copyright 2015-2015 Stephan Zeng
     
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
