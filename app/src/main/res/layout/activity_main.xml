@@ -9,15 +9,11 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context=".MainActivity">
 
-    <com.motouch.android.sectorprogressbar.SectorProgressBar xmlns:app="http://schemas.android.com/apk/res-auto"
+    <com.github.znacloud.SectorProgressBar xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/spb_progress"
         android:layout_width="48dp"
         android:layout_height="48dp"
         app:progress="0"
         app:borderWidth="2dp"
-        app:borderColor="@color/colorPrimary"
-        app:sectorBackgroundColor="@color/colorAccent"
-        app:sectorColor="@color/colorPrimaryDark"
-        app:showTextProgress="true"
         android:layout_centerInParent="true" />
 </RelativeLayout>

@@ -9,7 +9,7 @@ android {
     buildToolsVersion "23.0.1"
 
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 9
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
@@ -24,7 +24,6 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:23.1.0'
 }
 
 //定义GroupID和Version，ArtefactID会自动使用Project名
