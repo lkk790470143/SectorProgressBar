@@ -3,7 +3,7 @@
 ### Examples
 Here are some examples of how these progressbars could look like:
 
-![three examples](https://mavhhw-bn1306.files.1drv.com/y2p8nsn055K0X1rf95rWCcCuhokX4QE5B19SPohltQ758atQ9HcV2iK3K_w802Weg6hyMpbLPwpWGEGob8_z_brVQSnLW-PfNCw2tUNa2g-Y0xk4By4LjJ1nVOtE9JzjW7S_bQqlH3yfhezy8GdjtMKqznX2HjtF8461cEe69KS-oQ/cover_github.png)
+![example](http://h.hiphotos.baidu.com/image/pic/item/37d3d539b6003af32501de92332ac65c1138b68c.jpg)
 
 ## Usage
 ### Gradle
