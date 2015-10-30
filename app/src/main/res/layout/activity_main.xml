@@ -15,5 +15,9 @@
         android:layout_height="48dp"
         app:progress="0"
         app:borderWidth="2dp"
+        app:borderColor="@color/colorPrimary"
+        app:sectorBackgroundColor="@color/colorAccent"
+        app:sectorColor="@color/colorPrimaryDark"
+        app:showTextProgress="true"
         android:layout_centerInParent="true" />
 </RelativeLayout>

@@ -1,4 +1,4 @@
-package com.motouch.android.sectorprogressbar;
+package com.github.znacloud;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -8,6 +8,8 @@ import android.graphics.Paint;
 import android.graphics.RectF;
 import android.util.AttributeSet;
 import android.view.View;
+
+import com.github.znacloud.sectorprogressbar.R;
 
 /**
  * Created by Administrator on 2015/10/28.
