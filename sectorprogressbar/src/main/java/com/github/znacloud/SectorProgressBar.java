@@ -60,6 +60,7 @@ public class SectorProgressBar extends View {
         mSectorBackgroundColor = a.getColor(R.styleable.SectorProgressBar_sectorBackgroundColor, Color.TRANSPARENT);
         mShowTextPercent = a.getBoolean(R.styleable.SectorProgressBar_showTextProgress, true);
         mProgress = a.getInt(R.styleable.SectorProgressBar_progress, 0);
+        a.recycle();
     }
 
 
