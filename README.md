@@ -5,7 +5,7 @@ Examples
 
 Here are some examples of how these progressbars could look like:
 
-![example](http://h.hiphotos.baidu.com/image/pic/item/37d3d539b6003af32501de92332ac65c1138b68c.jpg)
+![example](http://e.hiphotos.baidu.com/image/pic/item/3b292df5e0fe9925f89a13b032a85edf8cb171bf.jpg)
 
 #Usage
 
