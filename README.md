@@ -24,27 +24,31 @@ Code
 
 After adding the gradle depedency from above you can go to your xml layout and add the following code for a squareprogressbar:
 
-    <com.github.znacloud.SectorProgressBar xmlns:app="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/spb_progress"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            app:progress="0"
-            app:borderWidth="2dp"
-            app:borderColor="@color/colorPrimary"
-            app:sectorBackgroundColor="@color/colorAccent"
-            app:sectorColor="@color/colorPrimaryDark"
-            app:showTextProgress="true"/>
-    
+```xml
+<com.github.znacloud.SectorProgressBar xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/spb_progress"
+    android:layout_width="48dp"
+    android:layout_height="48dp"
+    app:progress="0"
+    app:borderWidth="2dp"
+    app:borderColor="@color/colorPrimary"
+    app:sectorBackgroundColor="@color/colorAccent"
+    app:sectorColor="@color/colorPrimaryDark"
+    app:showTextProgress="true"/>
+```
+
 To set some basic settings use the following java-code:
 
-    mCirclePbr = (SectorProgressBar) findViewById(R.id.spb_progress);
-    //set custom attribute
-    mCirclePbr.setSectorBackgroundColor(Color.parseColor("#55000000"));
-    mCirclePbr.setBorderColor(Color.GRAY);
-    mCirclePbr.setBorderWidth(4);
-    mCirclePbr.setShowTextPercent(true);
-    mCirclePbr.setProgress(20);
-    
+```java
+mCirclePbr = (SectorProgressBar) findViewById(R.id.spb_progress);
+//set custom attribute
+mCirclePbr.setSectorBackgroundColor(Color.parseColor("#55000000"));
+mCirclePbr.setBorderColor(Color.GRAY);
+mCirclePbr.setBorderWidth(4);
+mCirclePbr.setShowTextPercent(true);
+mCirclePbr.setProgress(20);
+```
+
 License
 -------
 
