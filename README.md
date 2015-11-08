@@ -12,16 +12,7 @@ Here are some examples of how these progressbars could look like:
 Gradle
 -------
 
-This library now works with gradle and will soon be available on the central maven repository. For the moment its on jCenter at [Bintray](https://bintray.com/mrwonderman/maven/squareprogressbar/view). Just add the following repository to your root build.gradle:
-
-    allprojects {
-        repositories {
-            jcenter()
-            maven { url "https://jcenter.bintray.com" }
-        }
-    }
-
-Then in your app build.gradle:
+This library now works with gradle and is available on the central maven repository. Just add the following repository to your app build.gradle:
 
     dependencies {
         // other repos ...
